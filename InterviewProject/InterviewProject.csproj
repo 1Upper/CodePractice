@@ -51,20 +51,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Array\LowestCommonAncestor.cs" />
+    <Compile Include="Array\MostWaterInContainer.cs" />
     <Compile Include="Array\SearchinRotatedSortedArray.cs" />
     <Compile Include="Array\FindTwoNumbers.cs" />
     <Compile Include="Array\MedianOfTwoSortedArrays.cs" />
-    <Compile Include="Array\UTSearchinRotatedSortedArray.cs" />
-    <Compile Include="Array\UTFindTwoNumbers.cs" />
-    <Compile Include="Array\UTMedianOfTwoSortedArray.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Array" />
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

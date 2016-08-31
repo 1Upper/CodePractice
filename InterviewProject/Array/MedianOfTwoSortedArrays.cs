@@ -4,6 +4,7 @@ two sorted arrays. The overall run time complexity should be O(log (m+n)).
 
 From <https://oj.leetcode.com/problems/median-of-two-sorted-arrays/> 
  */
+using NUnit.Framework;
 using System;
 
 public static class MedianOfTwoSortedArray
@@ -12,7 +13,7 @@ public static class MedianOfTwoSortedArray
     {
         if (nums1 == null || nums2 == null)
         {
-            throw new Exception();
+            throw new ArgumentException();
         }
         
         int[] nums3 = new int[nums1.Length + nums2.Length];
@@ -59,6 +60,30 @@ public static class MedianOfTwoSortedArray
         else
         {
             return (double)(nums3[nums3.Length/2] + nums3[nums3.Length/2 - 1])/2;
+        }
+    }
+
+    [TestFixture]
+    public class UTMedianOfTwoSortedArray
+    {
+        [Test]
+        public void GetMedianOfTwoSortedArray()
+        {
+            int[] arr1 = { 1, 2 };
+            int[] arr2 = { 3, 4 };
+
+            double value = MedianOfTwoSortedArray.GetMedianOfTwoSortedArray(arr1, arr2);
+            Assert.IsTrue(value == 2.5);
+        }
+
+        [Test]
+        public void GetMedianOfTwoSortedArray2()
+        {
+            int[] arr1 = { 1, 2 };
+            int[] arr2 = { };
+
+            double value = MedianOfTwoSortedArray.GetMedianOfTwoSortedArray(arr1, arr2);
+            Assert.IsTrue(value == 1.5);
         }
     }
 }
