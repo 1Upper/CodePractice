@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Array\FindFirstUniqueCharInString.cs" />
     <Compile Include="Array\LowestCommonAncestor.cs" />
     <Compile Include="Array\MostWaterInContainer.cs" />
     <Compile Include="Array\SearchinRotatedSortedArray.cs" />
