@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Array\FindFirstUniqueCharInString.cs" />
+    <Compile Include="Array\FindLongestSubstring.cs" />
     <Compile Include="Array\LowestCommonAncestor.cs" />
     <Compile Include="Array\MostWaterInContainer.cs" />
     <Compile Include="Array\PopulatingNextRightPointers .cs" />
