@@ -54,6 +54,7 @@
   <ItemGroup>
     <Compile Include="Array\FindFirstUniqueCharInString.cs" />
     <Compile Include="Array\FindLongestSubstring.cs" />
+    <Compile Include="Array\LetterCombinationsOfPhoneNumber.cs" />
     <Compile Include="Array\ListAllBinaryTreePath.cs" />
     <Compile Include="Array\LowestCommonAncestor.cs" />
     <Compile Include="Array\MostWaterInContainer.cs" />
