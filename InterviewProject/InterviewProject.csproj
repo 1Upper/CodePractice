@@ -34,6 +34,7 @@
     <Reference Include="Microsoft.CSharp">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
     </Reference>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="nunit.framework">
       <HintPath>..\..\..\..\..\..\Program Files %28x86%29\NUnit.org\framework\3.4.1.0\net-4.0\nunit.framework.dll</HintPath>
     </Reference>
@@ -53,6 +54,7 @@
   <ItemGroup>
     <Compile Include="Array\FindFirstUniqueCharInString.cs" />
     <Compile Include="Array\FindLongestSubstring.cs" />
+    <Compile Include="Array\ListAllBinaryTreePath.cs" />
     <Compile Include="Array\LowestCommonAncestor.cs" />
     <Compile Include="Array\MostWaterInContainer.cs" />
     <Compile Include="Array\PopulatingNextRightPointers .cs" />
