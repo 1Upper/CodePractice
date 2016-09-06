@@ -58,6 +58,7 @@
     <Compile Include="Array\ListAllBinaryTreePath.cs" />
     <Compile Include="Array\LowestCommonAncestor.cs" />
     <Compile Include="Array\MostWaterInContainer.cs" />
+    <Compile Include="Array\PerfectSquares.cs" />
     <Compile Include="Array\PopulatingNextRightPointers .cs" />
     <Compile Include="Array\SearchinRotatedSortedArray.cs" />
     <Compile Include="Array\FindTwoNumbers.cs" />
