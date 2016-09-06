@@ -52,10 +52,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Array\BestTimeToBuySellStock.cs" />
     <Compile Include="Array\FindFirstUniqueCharInString.cs" />
     <Compile Include="Array\FindLongestSubstring.cs" />
     <Compile Include="Array\LetterCombinationsOfPhoneNumber.cs" />
     <Compile Include="Array\ListAllBinaryTreePath.cs" />
+    <Compile Include="Array\LongestIncreasingPathInMatrix.cs" />
     <Compile Include="Array\LowestCommonAncestor.cs" />
     <Compile Include="Array\MostWaterInContainer.cs" />
     <Compile Include="Array\PerfectSquares.cs" />
