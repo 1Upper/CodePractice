@@ -34,18 +34,17 @@ namespace InterviewProject.Array
     {
         public static int GetLongestIncreasingPath(int[,] matrix)
         {
-            if (matrix.GetLength(0) <= 0 || matrix.GetLength(1) <= 0)
+            int max = 0;
+            int rows = matrix.GetLength(0);
+            int cols = matrix.GetLength(1);
+
+            if (rows <= 0 || cols <= 0)
+            {
                 return 0;
+            }
 
-            int max = 0,
-                rows = matrix.GetLength(0),
-                cols = matrix.GetLength(1);
-
-            int[][] cache = new int[rows][];
-            for (int i = 0; i < rows; i++)
-                cache[i] = new int[cols];
-
-            int testValue = maxLen(matrix, Int32.MinValue, 2, 1, cache);
+            // Remember the intermediate searching result for each cell
+            int[,] cache = new int[rows, cols];
 
             for (int i = 0; i < rows; i++)
             {
@@ -58,20 +57,22 @@ namespace InterviewProject.Array
             return max;
         }
 
-        /*
-         * Using DFS - depth first search          
-         * memorization - use cache array to store the result 
-         * 
-         * min - previous node's value - so, it is minimum value to compare
-         * 
-         * checkpoints:
-         * 1. Run time problem - array out of index
-         * 2. Value - wrong value
-         * 3. logic checking 
-         * 4. memorization - remove duplication calculation 
-         * 
-         */
-        public static int maxLen(int[,] matrix, int nodeValue, int startX, int startY, int[][] cache)
+        /// <summary>
+        /// Using DFS - depth first search
+        /// memorization - use cache array to store the result
+        ///  checkpoints:
+        ///  1. Run time problem - array out of index
+        ///  2. Value - wrong value
+        ///  3. logic checking 
+        ///  4. memorization - remove duplication calculation
+        /// </summary>
+        /// <param name="matrix">targeted matrix</param>
+        /// <param name="nodeValue">previous node's value - so, it is minimum value to compare</param>
+        /// <param name="startX">X position to start</param>
+        /// <param name="startY">Y position to start</param>
+        /// <param name="cache">matrix to cache the intermediate result</param>
+        /// <returns></returns>
+        public static int maxLen(int[,] matrix, int nodeValue, int startX, int startY, int[,] cache)
         {
             // base cases: 
             if (startX < 0 ||
@@ -83,18 +84,18 @@ namespace InterviewProject.Array
             }
 
             // increasing path - next node should be bigger value 
-            if (matrix[startX,startY] <= nodeValue)
+            if (matrix[startX, startY] <= nodeValue)
             {
                 return 0;
             }
 
             // memorization 
-            if (cache[startX][startY] != 0)
+            if (cache[startX,startY] != 0)
             {
-                return cache[startX][startY];
+                return cache[startX,startY];
             }
 
-            nodeValue = matrix[startX,startY];
+            nodeValue = matrix[startX, startY];
 
             // Four neighbors - left, right, up, down 
             int[][] neighbors = new int[4][]{
@@ -111,14 +112,13 @@ namespace InterviewProject.Array
                 int nextX = startX + neighbors[i][0];
                 int nextY = startY + neighbors[i][1];
 
-                // pathLength value increments by one 
-                int pathLength = maxLen(matrix, nodeValue, nextX, nextY, cache) + 1;
-                maxValue = pathLength > maxValue ? pathLength : maxValue;
+                // Value increments by one for current 
+                maxValue = Math.Max(maxValue, maxLen(matrix, nodeValue, nextX, nextY, cache) + 1);
             }
 
-            cache[startX][startY] = maxValue;
+            cache[startX,startY] = maxValue;
 
-            return cache[startX][startY];
+            return cache[startX,startY];
         }
     }
 
