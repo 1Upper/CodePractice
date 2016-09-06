@@ -18,7 +18,7 @@ namespace InterviewProject
             
             // TODO: Implement Functionality Here
             
-            Console.Write("Press any key to continue . . . ");
+            Console.Write("This is really not how it works. :) ");
             Console.ReadKey(true);
         }
     }
