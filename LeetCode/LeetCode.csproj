@@ -58,16 +58,19 @@
     <Compile Include="Array\LetterCombinationsOfPhoneNumber.cs" />
     <Compile Include="Array\SpiralMatrixII.cs" />
     <Compile Include="BinaryTree\BinaryTreeRightSideView.cs" />
+    <Compile Include="BinaryTree\InvertBinaryTree.cs" />
     <Compile Include="BinaryTree\ListAllBinaryTreePath.cs" />
     <Compile Include="Array\LongestIncreasingPathInMatrix.cs" />
     <Compile Include="BinaryTree\LowestCommonAncestor.cs" />
     <Compile Include="Array\MostWaterInContainer.cs" />
     <Compile Include="Array\PerfectSquares.cs" />
+    <Compile Include="BinaryTree\MaximumDepth.cs" />
     <Compile Include="BinaryTree\PopulatingNextRightPointers .cs" />
     <Compile Include="Array\SearchinRotatedSortedArray.cs" />
     <Compile Include="Array\FindTwoNumbers.cs" />
     <Compile Include="Array\MedianOfTwoSortedArrays.cs" />
     <Compile Include="Array\SpiralMatrix.cs" />
+    <Compile Include="BinaryTree\SerializeAndDeserializeBinaryTree.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -13,6 +13,7 @@ You should return the following matrix:
 
 https://leetcode.com/problems/spiral-matrix-ii/
 */
+using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -87,6 +88,30 @@ namespace LeetCode
             }
 
             return result;
+        }
+    }
+
+    [TestFixture]
+    class UTSpiralMatrixII
+    {
+        [Test]
+        public void TestSpiralMatrixII()
+        {
+            var result = SpiralMatrixII.GenerateMatrix(3);
+
+            int[,] exp = {
+                { 1, 2, 3 },
+                { 8, 9, 4 },
+                { 7, 6, 5 },
+            };
+
+            for (int i = 0; i < 3; i++)
+            {
+                for (int j = 0; j < 3; j++)
+                {
+                    Assert.IsTrue(result[i, j] == exp[i, j]);
+                }
+            }
         }
     }
 }
