@@ -59,6 +59,7 @@
     <Compile Include="Array\SpiralMatrixII.cs" />
     <Compile Include="BinaryTree\BinaryTreeRightSideView.cs" />
     <Compile Include="BinaryTree\InvertBinaryTree.cs" />
+    <Compile Include="BinaryTree\IsValidBST.cs" />
     <Compile Include="BinaryTree\ListAllBinaryTreePath.cs" />
     <Compile Include="Array\LongestIncreasingPathInMatrix.cs" />
     <Compile Include="BinaryTree\LowestCommonAncestor.cs" />
