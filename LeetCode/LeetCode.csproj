@@ -56,6 +56,7 @@
     <Compile Include="Array\FindFirstUniqueCharInString.cs" />
     <Compile Include="Array\FindLongestSubstring.cs" />
     <Compile Include="Array\LetterCombinationsOfPhoneNumber.cs" />
+    <Compile Include="BinaryTree\BinaryTreeRightSideView.cs" />
     <Compile Include="BinaryTree\ListAllBinaryTreePath.cs" />
     <Compile Include="Array\LongestIncreasingPathInMatrix.cs" />
     <Compile Include="BinaryTree\LowestCommonAncestor.cs" />
