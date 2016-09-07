@@ -12,7 +12,7 @@ using System;
 using System.Collections.Generic;
 using NUnit.Framework;
 
-namespace InterviewProject
+namespace LeetCode
 {
     public class PerfectSquares
     {

@@ -10,7 +10,7 @@ From <https://leetcode.com/problems/search-in-rotated-sorted-array/>
 using NUnit.Framework;
 using System;
 
-namespace InterviewProject
+namespace LeetCode
 {
     /// <summary>
     /// Description of Class1.

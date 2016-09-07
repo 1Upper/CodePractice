@@ -7,7 +7,7 @@ From <https://oj.leetcode.com/problems/median-of-two-sorted-arrays/>
 using NUnit.Framework;
 using System;
 
-namespace InterviewProject
+namespace LeetCode
 {
     public static class MedianOfTwoSortedArray
     {
