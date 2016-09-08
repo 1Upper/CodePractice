@@ -8,7 +8,7 @@ From <https://oj.leetcode.com/problems/longest-substring-without-repeating-chara
 using System;
 using NUnit.Framework;
 
-namespace InterviewProject
+namespace LeetCode
 {
     public static class FindLongestSubstring
     {

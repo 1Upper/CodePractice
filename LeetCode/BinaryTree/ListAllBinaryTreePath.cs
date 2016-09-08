@@ -18,7 +18,7 @@ using System.Text;
 using NUnit.Framework;
 using NUnit.Framework.Internal;
 
-namespace InterviewProject
+namespace LeetCode
 {
     public class TreeNode
     {

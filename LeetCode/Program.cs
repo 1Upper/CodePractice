@@ -8,7 +8,7 @@
  */
 using System;
 
-namespace InterviewProject
+namespace LeetCode
 {
     class Program
     {

@@ -20,7 +20,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace InterviewProject.Array
+namespace LeetCode.Array
 {
 
     /// Definition for a binary tree node.

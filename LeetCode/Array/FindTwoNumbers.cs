@@ -11,7 +11,7 @@ From <https://oj.leetcode.com/problems/two-sum/>
 using NUnit.Framework;
 using System;
 
-namespace InterviewProject
+namespace LeetCode
 {
     /// <summary>
     /// Description of Array.
