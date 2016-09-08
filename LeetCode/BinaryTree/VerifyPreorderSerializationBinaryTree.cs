@@ -60,9 +60,9 @@ namespace LeetCode
                 stack.Add(arr[i]);
 
                 while (stack.Count >= 3
-                    && stack.ElementAt<string>(stack.Count - 1).Equals("#")
-                    && stack.ElementAt<string>(stack.Count - 2).Equals("#")
-                    && !stack.ElementAt<string>(stack.Count - 3).Equals("#"))
+                    && stack[stack.Count - 1].Equals("#")
+                    && stack[stack.Count - 2].Equals("#")
+                    && !stack[stack.Count - 3].Equals("#"))
                 {
                     stack.RemoveAt(stack.Count - 1);
                     stack.RemoveAt(stack.Count - 1);
@@ -72,7 +72,7 @@ namespace LeetCode
                 }
             }
 
-            if (stack.Count() == 1 && stack.First<string>().Equals("#"))
+            if (stack.Count() == 1 && stack[0].Equals("#"))
                 return true;
             else
                 return false;
