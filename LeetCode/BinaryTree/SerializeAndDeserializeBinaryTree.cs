@@ -151,7 +151,7 @@ namespace LeetCode
             l1.right = l2;
 
             var content = SerializeAndDeserializeBinaryTree.serialize(root);
-            string exp = "[1,2,3,null,5,null,null]";
+            string exp = "[1,2,3,null,5,null,null,null,null]";
 
             Assert.IsTrue(content == exp);
 

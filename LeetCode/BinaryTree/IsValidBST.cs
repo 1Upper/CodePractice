@@ -28,6 +28,7 @@ namespace LeetCode
 {
     class ValidBST
     {
+        // solution 1: low efficiency
         void InorderTraversal(TreeNode root, IList<int> result)
         {
             if (root == null) return;
@@ -37,7 +38,7 @@ namespace LeetCode
             result.Add(root.val);
 
             InorderTraversal(root.right, result);
-            
+
         }
 
         public bool IsValidBST(TreeNode root)
@@ -46,7 +47,7 @@ namespace LeetCode
 
             InorderTraversal(root, valueList);
 
-            for (int i = 0; i <= valueList.Count -2; i++)
+            for (int i = 0; i <= valueList.Count - 2; i++)
             {
                 if (valueList[i] >= valueList[i + 1])
                     return false;
@@ -54,5 +55,27 @@ namespace LeetCode
 
             return true;
         }
+
+        //unsafe bool isValidBST(TreeNode root, int* min, int* max)
+        //{
+        //    if (root == null) return true;
+        //    int value = root.val;
+
+        //    if ((min != null && root.val <= *min) || 
+        //        (max != null && root.val >= *max))
+        //    {
+        //        return false;
+        //    }
+
+        //    return isValidBST(root.left, min, &value) && isValidBST(root.right, &(value), max);
+        //}
+
+        //unsafe public bool IsValidBST(TreeNode root)
+        //{
+        //    if (root == null)
+        //        return true;
+            
+        //    return isValidBST(root, null, null);
+        //}
     }
 }
