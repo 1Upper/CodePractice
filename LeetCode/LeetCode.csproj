@@ -56,12 +56,14 @@
     <Compile Include="Array\ConvertSortedArrayToBST.cs" />
     <Compile Include="Array\FindFirstUniqueCharInString.cs" />
     <Compile Include="Array\FindLongestSubstring.cs" />
+    <Compile Include="Array\IntersectionofTwoArrays.cs" />
     <Compile Include="Array\KthLargestElementInAnArray.cs" />
     <Compile Include="Array\LetterCombinationsOfPhoneNumber.cs" />
     <Compile Include="Array\MaximumProductSubarray.cs" />
     <Compile Include="Array\MaximumSubarray.cs" />
     <Compile Include="Array\MergeSortedArray.cs" />
     <Compile Include="Array\MinimumSizeSubarraySum.cs" />
+    <Compile Include="Array\ProductofArrayExceptSelf.cs" />
     <Compile Include="Array\RemoveDuplicatesfromSortedArray.cs" />
     <Compile Include="Array\RemoveDuplicatesfromSortedArrayII.cs" />
     <Compile Include="Array\RotateArray.cs" />
