@@ -67,6 +67,7 @@
     <Compile Include="Array\RemoveDuplicatesfromSortedArray.cs" />
     <Compile Include="Array\RemoveDuplicatesfromSortedArrayII.cs" />
     <Compile Include="Array\RotateArray.cs" />
+    <Compile Include="Array\ShuffleanArray.cs" />
     <Compile Include="Array\SpiralMatrixII.cs" />
     <Compile Include="Array\TwoSumII.cs" />
     <Compile Include="BinaryTree\BinarySearchTreeIterator.cs" />
