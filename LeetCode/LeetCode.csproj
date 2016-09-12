@@ -88,6 +88,8 @@
     <Compile Include="Array\SpiralMatrix.cs" />
     <Compile Include="BinaryTree\SerializeAndDeserializeBinaryTree.cs" />
     <Compile Include="BinaryTree\VerifyPreorderSerializationBinaryTree.cs" />
+    <Compile Include="Matrix\UniquePaths.cs" />
+    <Compile Include="Matrix\UniquePathsII.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
