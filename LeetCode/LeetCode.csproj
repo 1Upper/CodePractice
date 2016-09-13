@@ -71,6 +71,7 @@
     <Compile Include="Array\SpiralMatrixII.cs" />
     <Compile Include="Array\TwoSumII.cs" />
     <Compile Include="BinaryTree\BinarySearchTreeIterator.cs" />
+    <Compile Include="BinaryTree\BinaryTreeMaximumPathSum.cs" />
     <Compile Include="BinaryTree\BinaryTreeRightSideView.cs" />
     <Compile Include="BinaryTree\InvertBinaryTree.cs" />
     <Compile Include="BinaryTree\IsValidBST.cs" />
@@ -81,6 +82,7 @@
     <Compile Include="Array\PerfectSquares.cs" />
     <Compile Include="BinaryTree\LowestCommonAncestorInBinaryTree.cs" />
     <Compile Include="BinaryTree\MaximumDepth.cs" />
+    <Compile Include="BinaryTree\PathSum.cs" />
     <Compile Include="BinaryTree\PopulatingNextRightPointers .cs" />
     <Compile Include="Array\SearchinRotatedSortedArray.cs" />
     <Compile Include="Array\FindTwoNumbers.cs" />
@@ -88,6 +90,8 @@
     <Compile Include="Array\SpiralMatrix.cs" />
     <Compile Include="BinaryTree\SerializeAndDeserializeBinaryTree.cs" />
     <Compile Include="BinaryTree\VerifyPreorderSerializationBinaryTree.cs" />
+    <Compile Include="Matrix\KthSmallestElementinaSortedMatrix.cs" />
+    <Compile Include="Matrix\MinimumPathSum.cs" />
     <Compile Include="Matrix\UniquePaths.cs" />
     <Compile Include="Matrix\UniquePathsII.cs" />
     <Compile Include="Program.cs" />
