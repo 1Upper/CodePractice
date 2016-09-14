@@ -75,6 +75,7 @@
     <Compile Include="BinaryTree\BinaryTreeRightSideView.cs" />
     <Compile Include="BinaryTree\InvertBinaryTree.cs" />
     <Compile Include="BinaryTree\IsValidBST.cs" />
+    <Compile Include="BinaryTree\KthSmallestElementinBST.cs" />
     <Compile Include="BinaryTree\ListAllBinaryTreePath.cs" />
     <Compile Include="Array\LongestIncreasingPathInMatrix.cs" />
     <Compile Include="BinaryTree\LowestCommonAncestor.cs" />
@@ -92,6 +93,8 @@
     <Compile Include="BinaryTree\VerifyPreorderSerializationBinaryTree.cs" />
     <Compile Include="Matrix\KthSmallestElementinaSortedMatrix.cs" />
     <Compile Include="Matrix\MinimumPathSum.cs" />
+    <Compile Include="Matrix\Search2DMatrix.cs" />
+    <Compile Include="Matrix\SetMatrixZeroes.cs" />
     <Compile Include="Matrix\UniquePaths.cs" />
     <Compile Include="Matrix\UniquePathsII.cs" />
     <Compile Include="Program.cs" />
