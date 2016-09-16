@@ -33,6 +33,12 @@
     <ClCompile Include="CountBit.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Permutation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverseString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
@@ -51,6 +57,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CountBit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Permutation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReverseString.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

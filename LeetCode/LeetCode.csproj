@@ -59,10 +59,12 @@
     <Compile Include="Array\IntersectionofTwoArrays.cs" />
     <Compile Include="Array\KthLargestElementInAnArray.cs" />
     <Compile Include="Array\LetterCombinationsOfPhoneNumber.cs" />
+    <Compile Include="Array\LongestPalindromicSubstring.cs" />
     <Compile Include="Array\MaximumProductSubarray.cs" />
     <Compile Include="Array\MaximumSubarray.cs" />
     <Compile Include="Array\MergeSortedArray.cs" />
     <Compile Include="Array\MinimumSizeSubarraySum.cs" />
+    <Compile Include="Array\Permutations.cs" />
     <Compile Include="Array\ProductofArrayExceptSelf.cs" />
     <Compile Include="Array\RemoveDuplicatesfromSortedArray.cs" />
     <Compile Include="Array\RemoveDuplicatesfromSortedArrayII.cs" />
@@ -103,7 +105,9 @@
   <ItemGroup>
     <None Include="app.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="String\" />
+  </ItemGroup>
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>

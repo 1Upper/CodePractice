@@ -106,7 +106,9 @@
     <ClCompile Include="AssemblyInfo.cpp" />
     <ClCompile Include="BitwiseANDofNumbersRange.cpp" />
     <ClCompile Include="CountBit.cpp" />
+    <ClCompile Include="Permutation.cpp" />
     <ClCompile Include="ReverseBits.cpp" />
+    <ClCompile Include="ReverseString.cpp" />
     <ClCompile Include="SortNumbersInArray.cpp" />
     <ClCompile Include="Stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -116,8 +118,10 @@
   <ItemGroup>
     <ClInclude Include="BitwiseANDofNumbersRange.h" />
     <ClInclude Include="CountBit.h" />
+    <ClInclude Include="Permutation.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="ReverseBits.h" />
+    <ClInclude Include="ReverseString.h" />
     <ClInclude Include="SortNumbersInArray.h" />
     <ClInclude Include="Stdafx.h" />
   </ItemGroup>

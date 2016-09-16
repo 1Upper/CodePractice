@@ -48,9 +48,9 @@ namespace LeetCode
     {
         public static bool IsValidSerialization(string preorder)
         {
-            List<String> stack = new List<String>();
-            
-            String[] arr = preorder.Split(',');
+            List<string> stack = new List<string>();
+
+            string[] arr = preorder.Split(',');
 
             /// We can keep removing the leaf node until there is no one to remove. If a sequence is like "4 # #", 
             /// change it to "#" and continue. We need a stack so that we can record previous removed nodes.
