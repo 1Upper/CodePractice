@@ -9,7 +9,7 @@
 using System;
 using NUnit.Framework;
 
-namespace LeetCode.Array
+namespace LeetCode
 {
     public class RotateArray
     {

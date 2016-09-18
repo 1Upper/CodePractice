@@ -1,5 +1,6 @@
 ﻿/*
- Given a string S, find the longest palindromic substring in S. You may assume that the maximum length of S is 1000, and there exists one unique longest palindromic substring.
+ Given a string S, find the longest palindromic substring in S. You may assume that the maximum 
+length of S is 1000, and there exists one unique longest palindromic substring.
 
 From <https://oj.leetcode.com/problems/longest-palindromic-substring/> 
 
@@ -65,7 +66,8 @@ namespace LeetCode.Array
                 }
             }
 
-            return s.Substring((centerIndex - 1 - maxLen) / 2, maxLen);
+            return s.Substring((centerIndex - 1 - maxLen) / 2, maxLen);
+
         }
     }
 }
