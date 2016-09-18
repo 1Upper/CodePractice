@@ -71,13 +71,7 @@ namespace LeetCode
                 if (hs.Count == 0)
                 {
                     lists.Add(i);
-                    // To allow overlap
-                    i += keyLength - 1;
                 }
-                else
-                {
-                    i += keyLength - 1;
-                } 
             }
             
             return lists;
@@ -164,6 +158,22 @@ namespace LeetCode
             var result = SubstringWithConcatenationAllWords.FindSubstring(input, words.ToArray());
             
             Assert.IsTrue(result.Count == 3, "result {0}", result.Count);
+        }
+
+        [Test]
+        public void TestSubstringWithConcatenationAllWords2()
+        {
+            string input = "lingmindraboofooowingdingbarrwingmonkeypoundcake";
+            IList<string> words = new List<string>();
+            words.Add("fooo");
+            words.Add("barr");
+            words.Add("wing");
+            words.Add("ding");
+            words.Add("wing");
+
+            var result = SubstringWithConcatenationAllWords.FindSubstring(input, words.ToArray());
+            
+            Assert.IsTrue(result.Count == 1, "result {0}", result.Count);
         }
     }
 }
