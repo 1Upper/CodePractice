@@ -105,6 +105,7 @@
   <ItemGroup>
     <ClCompile Include="AssemblyInfo.cpp" />
     <ClCompile Include="BitwiseANDofNumbersRange.cpp" />
+    <ClCompile Include="CopyListwithRandomPointer.cpp" />
     <ClCompile Include="CountBit.cpp" />
     <ClCompile Include="Permutation.cpp" />
     <ClCompile Include="ReverseBits.cpp" />
@@ -117,6 +118,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BitwiseANDofNumbersRange.h" />
+    <ClInclude Include="CopyListwithRandomPointer.h" />
     <ClInclude Include="CountBit.h" />
     <ClInclude Include="Permutation.h" />
     <ClInclude Include="resource.h" />

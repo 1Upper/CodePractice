@@ -56,6 +56,7 @@
     <Compile Include="Array\ConvertSortedArrayToBST.cs" />
     <Compile Include="Array\FindFirstUniqueCharInString.cs" />
     <Compile Include="Array\FindLongestSubstring.cs" />
+    <Compile Include="LinkedList\InsertIntoCyclicSortedList.cs" />
     <Compile Include="Array\IntersectionofTwoArrays.cs" />
     <Compile Include="Array\KthLargestElementInAnArray.cs" />
     <Compile Include="Array\LetterCombinationsOfPhoneNumber.cs" />
@@ -64,6 +65,7 @@
     <Compile Include="Array\MaximumSubarray.cs" />
     <Compile Include="Array\MergeSortedArray.cs" />
     <Compile Include="Array\MinimumSizeSubarraySum.cs" />
+    <Compile Include="Array\PalindromePartitioningII.cs" />
     <Compile Include="Array\Permutations.cs" />
     <Compile Include="Array\ProductofArrayExceptSelf.cs" />
     <Compile Include="Array\RemoveDuplicatesfromSortedArray.cs" />
@@ -101,14 +103,15 @@
     <Compile Include="Matrix\UniquePathsII.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="String\LongestDuplicatedSubstring .cs" />
+    <Compile Include="String\MinimumWindowSubstring.cs" />
+    <Compile Include="String\MultiplyStrings.cs" />
     <Compile Include="String\SubstringWithConcatenationAllWords.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="String\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
