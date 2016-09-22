@@ -76,18 +76,26 @@ namespace LeetCode
                 if (count == t.Length)
                 {
                     char sc = s[left];
+
+                    // Check if the left most char of substring has another instance in current string
                     while (!map.ContainsKey(sc) || map[sc] > target[sc])
                     {
+                        // Move away from current left most char and
+                        // find the next matching char in targeted string
                         if (map.ContainsKey(sc) && map[sc] > target[sc])
-                            map[sc] = map[sc] - 1;
+                        {
+                            map[sc]--;
+                        }
+
                         left++;
                         sc = s[left];
                     }
 
+                    // Calculate the substring and its length
                     if (i - left + 1 < minLen)
                     {
-                        result = s.Substring(left, i + 1);
                         minLen = i - left + 1;
+                        result = s.Substring(left, minLen);
                     }
                 }
             }
@@ -102,11 +110,11 @@ namespace LeetCode
         [Test]
         public void TestMinimumWindowSubstring()
         {
-            string input = "hello";
+            string input = "helloe";
             string target = "eo";
 
             var result = MinimumWindowSubstring.MinWindow(input, target);
-            Assert.IsTrue(result == "ello");
+            Assert.IsTrue(result == "oe");
         }
     }
 }
