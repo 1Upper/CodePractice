@@ -96,6 +96,7 @@
     <Compile Include="Array\SpiralMatrix.cs" />
     <Compile Include="BinaryTree\SerializeAndDeserializeBinaryTree.cs" />
     <Compile Include="BinaryTree\VerifyPreorderSerializationBinaryTree.cs" />
+    <Compile Include="LinkedList\MergekSortedLists.cs" />
     <Compile Include="Matrix\KthSmallestElementinaSortedMatrix.cs" />
     <Compile Include="Matrix\MinimumPathSum.cs" />
     <Compile Include="Matrix\Search2DMatrix.cs" />
