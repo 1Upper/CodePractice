@@ -52,11 +52,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Array\AddTwoNumbers.cs" />
     <Compile Include="Array\BestTimeToBuySellStock.cs" />
     <Compile Include="Array\ConvertSortedArrayToBST.cs" />
     <Compile Include="Array\FindFirstUniqueCharInString.cs" />
     <Compile Include="Array\FindLongestSubstring.cs" />
     <Compile Include="Array\RegularExpressionMatching.cs" />
+    <Compile Include="Array\TwoSum.cs" />
     <Compile Include="LinkedList\InsertIntoCyclicSortedList.cs" />
     <Compile Include="Array\IntersectionofTwoArrays.cs" />
     <Compile Include="Array\KthLargestElementInAnArray.cs" />
