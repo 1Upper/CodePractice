@@ -52,15 +52,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Array\3Sum.cs" />
     <Compile Include="Array\AddTwoNumbers.cs" />
     <Compile Include="Array\BestTimeToBuySellStock.cs" />
     <Compile Include="Array\ConvertSortedArrayToBST.cs" />
     <Compile Include="Array\FindFirstUniqueCharInString.cs" />
     <Compile Include="Array\FindLongestSubstring.cs" />
+    <Compile Include="Array\LongestCommonPrefix.cs" />
     <Compile Include="Array\RegularExpressionMatching.cs" />
     <Compile Include="Array\ReverseInteger.cs" />
     <Compile Include="Array\TwoSum.cs" />
     <Compile Include="Array\ZigZagConversion.cs" />
+    <Compile Include="Number\IntegerToRoman.cs" />
+    <Compile Include="Number\PalindromeNumber.cs" />
     <Compile Include="LinkedList\InsertIntoCyclicSortedList.cs" />
     <Compile Include="Array\IntersectionofTwoArrays.cs" />
     <Compile Include="Array\KthLargestElementInAnArray.cs" />
@@ -107,6 +111,7 @@
     <Compile Include="Matrix\SetMatrixZeroes.cs" />
     <Compile Include="Matrix\UniquePaths.cs" />
     <Compile Include="Matrix\UniquePathsII.cs" />
+    <Compile Include="Number\RomantoInteger.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="String\LongestDuplicatedSubstring .cs" />
