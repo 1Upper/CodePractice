@@ -11,7 +11,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace LeetCode.Array
+namespace LeetCode
 {
     class AddTwoNumbers
     {
