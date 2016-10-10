@@ -53,6 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Array\3Sum.cs" />
+    <Compile Include="Array\3SumClosest.cs" />
     <Compile Include="Array\AddTwoNumbers.cs" />
     <Compile Include="Array\BestTimeToBuySellStock.cs" />
     <Compile Include="Array\ConvertSortedArrayToBST.cs" />
@@ -63,6 +64,7 @@
     <Compile Include="Array\ReverseInteger.cs" />
     <Compile Include="Array\TwoSum.cs" />
     <Compile Include="Array\ZigZagConversion.cs" />
+    <Compile Include="Matrix\EatPill.cs" />
     <Compile Include="Number\IntegerToRoman.cs" />
     <Compile Include="Number\PalindromeNumber.cs" />
     <Compile Include="LinkedList\InsertIntoCyclicSortedList.cs" />
