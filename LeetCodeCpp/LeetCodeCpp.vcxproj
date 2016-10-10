@@ -109,6 +109,7 @@
     <ClCompile Include="CountBit.cpp" />
     <ClCompile Include="Permutation.cpp" />
     <ClCompile Include="ReverseBits.cpp" />
+    <ClCompile Include="ReverseNodeInKGroup.cpp" />
     <ClCompile Include="ReverseString.cpp" />
     <ClCompile Include="SortNumbersInArray.cpp" />
     <ClCompile Include="Stdafx.cpp">
@@ -123,6 +124,7 @@
     <ClInclude Include="Permutation.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="ReverseBits.h" />
+    <ClInclude Include="ReverseNodeInKGroup.h" />
     <ClInclude Include="ReverseString.h" />
     <ClInclude Include="SortNumbersInArray.h" />
     <ClInclude Include="Stdafx.h" />
