@@ -57,6 +57,7 @@
     <Compile Include="Array\FindFirstUniqueCharInString.cs" />
     <Compile Include="Array\FindLongestSubstring.cs" />
     <Compile Include="Array\RegularExpressionMatching.cs" />
+    <Compile Include="Array\FindTheDuplicateNumber.cs" />
     <Compile Include="LinkedList\InsertIntoCyclicSortedList.cs" />
     <Compile Include="Array\IntersectionofTwoArrays.cs" />
     <Compile Include="Array\KthLargestElementInAnArray.cs" />
