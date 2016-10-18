@@ -64,6 +64,7 @@
     <Compile Include="Array\MergeTwoSortedLists .cs" />
     <Compile Include="Array\RegularExpressionMatching.cs" />
     <Compile Include="Array\FindTheDuplicateNumber.cs" />
+    <Compile Include="Array\RemoveElement.cs" />
     <Compile Include="Array\ReverseInteger.cs" />
     <Compile Include="Array\SwapNodesinPairs .cs" />
     <Compile Include="Array\TwoSum.cs" />
@@ -71,6 +72,7 @@
     <Compile Include="Array\ZigZagConversion.cs" />
     <Compile Include="LinkedList\RemoveNthNodeFromEndofList.cs" />
     <Compile Include="Matrix\EatPill.cs" />
+    <Compile Include="Number\DivideTwoIntegers.cs" />
     <Compile Include="Number\IntegerToRoman.cs" />
     <Compile Include="Number\PalindromeNumber.cs" />
     <Compile Include="LinkedList\InsertIntoCyclicSortedList.cs" />
