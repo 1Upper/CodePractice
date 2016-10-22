@@ -2,8 +2,8 @@
  //从头扫描字符串得到第一个字符，针对第一个字符，有两种选择  
 //把这个字符放到组合中去，接下来我们需要在剩下的n-1个字符中选取m-1个字符；  
 //如果不把这个字符放到组合中去，则需要在剩下的n-1个字符中选取m个字符   
- */
- using System;
+*/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -41,8 +41,11 @@ namespace LeetCode
             if (start >= charArray.Length)
                 return;
 
+            //不把这个字符放到组合中去，则需要在剩下的n-1个字符中选取m个字符   
             GetCombinations(charArray, start+1, length, ref s, results);
-            s += charArray[start];
+
+            //把这个字符放到组合中去，接下来我们需要在剩下的n-1个字符中选取m-1个字符  
+            s += charArray[start]; 
             GetCombinations(charArray, start+1, length-1, ref s, results);
         }
     }
