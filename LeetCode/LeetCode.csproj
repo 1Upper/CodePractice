@@ -62,6 +62,7 @@
     <Compile Include="Array\GenerateParentheses.cs" />
     <Compile Include="Array\LongestCommonPrefix.cs" />
     <Compile Include="Array\MergeTwoSortedLists .cs" />
+    <Compile Include="Array\Permutation-Combination\NumberArrayCombination.cs" />
     <Compile Include="Array\RegularExpressionMatching.cs" />
     <Compile Include="Array\FindTheDuplicateNumber.cs" />
     <Compile Include="Array\RemoveElement.cs" />
@@ -78,14 +79,14 @@
     <Compile Include="LinkedList\InsertIntoCyclicSortedList.cs" />
     <Compile Include="Array\IntersectionofTwoArrays.cs" />
     <Compile Include="Array\KthLargestElementInAnArray.cs" />
-    <Compile Include="Array\LetterCombinationsOfPhoneNumber.cs" />
+    <Compile Include="Array\Permutation-Combination\LetterCombinationsOfPhoneNumber.cs" />
     <Compile Include="Array\LongestPalindromicSubstring.cs" />
     <Compile Include="Array\MaximumProductSubarray.cs" />
     <Compile Include="Array\MaximumSubarray.cs" />
     <Compile Include="Array\MergeSortedArray.cs" />
     <Compile Include="Array\MinimumSizeSubarraySum.cs" />
     <Compile Include="Array\PalindromePartitioningII.cs" />
-    <Compile Include="Array\Permutations.cs" />
+    <Compile Include="Array\Permutation-Combination\Permutations.cs" />
     <Compile Include="Array\ProductofArrayExceptSelf.cs" />
     <Compile Include="Array\RemoveDuplicatesfromSortedArray.cs" />
     <Compile Include="Array\RemoveDuplicatesfromSortedArrayII.cs" />

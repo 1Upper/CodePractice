@@ -45,6 +45,9 @@
     <ClCompile Include="ReverseNodeInKGroup.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="NumberArrayCombination.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
@@ -75,6 +78,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ReverseNodeInKGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NumberArrayCombination.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

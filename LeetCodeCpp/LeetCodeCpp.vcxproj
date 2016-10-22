@@ -107,6 +107,7 @@
     <ClCompile Include="BitwiseANDofNumbersRange.cpp" />
     <ClCompile Include="CopyListwithRandomPointer.cpp" />
     <ClCompile Include="CountBit.cpp" />
+    <ClCompile Include="NumberArrayCombination.cpp" />
     <ClCompile Include="Permutation.cpp" />
     <ClCompile Include="ReverseBits.cpp" />
     <ClCompile Include="ReverseNodeInKGroup.cpp" />
@@ -121,6 +122,7 @@
     <ClInclude Include="BitwiseANDofNumbersRange.h" />
     <ClInclude Include="CopyListwithRandomPointer.h" />
     <ClInclude Include="CountBit.h" />
+    <ClInclude Include="NumberArrayCombination.h" />
     <ClInclude Include="Permutation.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="ReverseBits.h" />

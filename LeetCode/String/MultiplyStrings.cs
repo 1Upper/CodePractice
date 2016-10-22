@@ -55,9 +55,9 @@ namespace LeetCode
         [Test]
         public void TestMultiplyStrings()
         {
-            var result = MultiplyStrings.Multiply("0", "0");
+            var result = MultiplyStrings.Multiply("999999", "999999");
 
-            Assert.IsTrue(result == "0");
+            Assert.IsTrue(result == "999998000001");
         }
     }
 }

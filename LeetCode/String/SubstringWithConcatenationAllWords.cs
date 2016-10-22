@@ -23,7 +23,7 @@ namespace LeetCode
 {
     public class SubstringWithConcatenationAllWords
     {
-        
+
         // Valid if target string contains all words in collection
         // 0: Match, -1: Not match and stop, N: try from N
         public static int IsStringCollectionValid(IList<string> words, string dest, int keyLength)
