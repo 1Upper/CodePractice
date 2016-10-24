@@ -21,6 +21,81 @@ using NUnit.Framework;
 
 namespace LeetCode
 {
+    class StringPermutations
+    {
+        bool IsSwapNeeded(string[] strs, int begin, int end)
+        {
+            var str = strs[end];
+            for (int i = begin; i < end; i++)
+            {
+                if (strs[i] == str)
+                    return false;
+            }
+            return true;
+        }
+
+        void swap(string[] strs, int i, int j)
+        {
+            var temp = strs[i];
+            strs[i] = strs[j];
+            strs[j] = temp;
+        }
+
+        public void PermutationsArray(List<string> strings, string[] strs, int begin)
+        {
+            if (begin == strs.Length)
+            {
+                StringBuilder sb = new StringBuilder();
+                for (int i = 0; i < strs.Length; i++)
+                {
+                    sb.Append(strs[i]);
+                }
+
+                strings.Add(sb.ToString());
+            }
+            else
+            {
+                for (int i = begin; i < strs.Length; i++)
+                {
+                    if (IsSwapNeeded(strs, begin, i))
+                    {
+                        swap(strs, i, begin);
+                        PermutationsArray(strings, strs, begin + 1);
+                        swap(strs, i, begin);
+                    }
+                }
+            }
+        }
+
+        public List<string> PermuteUniqueStrings(string[] strs)
+        {
+            List<string> arraylist = new List<string>();
+
+            PermutationsArray(arraylist, strs, 0);
+
+            return arraylist;
+        }
+
+        public IList<int> FindSubstring(string s, string[] words)
+        {
+            var strs = PermuteUniqueStrings(words);
+            IList<int> results = new List<int>();
+            
+            foreach (var str in strs)
+            {
+                int start = 0;
+                while (s.Length - start >= str.Length)
+                {
+                    start = s.IndexOf(str, start);
+
+                    if (start >= 0) results.Add(start);
+                }
+            }
+
+            return results;
+        }
+    }
+
     public class SubstringWithConcatenationAllWords
     {
 
@@ -141,8 +216,9 @@ namespace LeetCode
             words.Add("foo");
             words.Add("bar");
 
-            var result = SubstringWithConcatenationAllWords.FindSubstring(input, words.ToArray());
-            
+            //var result = SubstringWithConcatenationAllWords.FindSubstring(input, words.ToArray());
+            StringPermutations testobj = new StringPermutations();
+            var result = testobj.FindSubstring(input, words.ToArray());
             Assert.IsTrue(result.Count == 2);
         }
         
@@ -155,8 +231,10 @@ namespace LeetCode
             words.Add("bar");
             words.Add("the");
 
-            var result = SubstringWithConcatenationAllWords.FindSubstring(input, words.ToArray());
-            
+            //var result = SubstringWithConcatenationAllWords.FindSubstring(input, words.ToArray());
+            StringPermutations testobj = new StringPermutations();
+            var result = testobj.FindSubstring(input, words.ToArray());
+
             Assert.IsTrue(result.Count == 3, "result {0}", result.Count);
         }
 
@@ -171,8 +249,9 @@ namespace LeetCode
             words.Add("ding");
             words.Add("wing");
 
-            var result = SubstringWithConcatenationAllWords.FindSubstring(input, words.ToArray());
-            
+            //var result = SubstringWithConcatenationAllWords.FindSubstring(input, words.ToArray());
+            StringPermutations testobj = new StringPermutations();
+            var result = testobj.FindSubstring(input, words.ToArray());
             Assert.IsTrue(result.Count == 1, "result {0}", result.Count);
         }
     }

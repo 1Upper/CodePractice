@@ -13,6 +13,45 @@ For example,
   [3,2,1]
 ]
 
+思路：Permutations I
+
+方法1：插入法
+
+与subset I的方法2很相近。以题中例子说明：
+当只有1时候：[1]
+当加入2以后：[2, 1],                           [1, 2]
+当加入3以后：[3, 2, 1], [2, 3, 1], [2, 1, 3],  [3, 1, 2], [1, 3, 2], [1, 2, 3]
+
+前3个permutation分别对应将3插入[2, 1]的0, 1, 2的位置。同理后3个为插入[1, 2]的。因此可以用逐个插入数字来构造所有permutations。
+class Solution {
+public:
+    vector<vector<int> > permute(vector<int> &num) {
+        vector<vector<int>> allPer;
+        if(num.empty()) return allPer;
+        allPer.push_back(vector<int>(1,num[0]));
+        
+        for(int i=1; i<num.size(); i++) {
+            int n = allPer.size();
+            for(int j=0; j<n; j++) {
+                for(int k=0; k<allPer[j].size(); k++) {
+                    vector<int> per = allPer[j];
+                    per.insert(per.begin()+k, num[i]);
+                    allPer.push_back(per);
+                }
+                allPer[j].push_back(num[i]);
+            }
+        }
+        return allPer;
+    }
+};
+
+方法2：backtracking法
+
+本质上，这个问题就是把 Nth 数字后的N-1个数字交换。所以，可以用递归的来解决
+
+和combination/subset不同，数字不同的排列顺序算作不同的permutation。所以我们需要用一个辅助数组来记录当前递归层时，哪些数字已经在上层的递归使用过了。
+数字不同的排列顺序算作不同的permutation。所以我们需要用一个辅助数组来记录当前递归层时，哪些数字已经在上层的递归使用过了。
+
 https://leetcode.com/problems/permutations/
 
  */

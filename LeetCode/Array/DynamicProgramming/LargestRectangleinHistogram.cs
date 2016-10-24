@@ -59,7 +59,7 @@ namespace LeetCode
                     while (stack.Count > 0 && h[i] < h[stack.Peek()])
                     {
                         int t = stack.Pop();
-                        maxArea = Math.Max(maxArea, h[t]*(stack.Count == 0 ? t : i - stack.Peek() - 1));
+                        maxArea = Math.Max(maxArea, h[t]*(stack.Count == 0 ? i : i - stack.Peek() - 1));
                     }
 
                     stack.Push(i);
@@ -100,7 +100,7 @@ namespace LeetCode
         {
             int[] bars = new[] {2, 1, 5, 6, 2, 3};
             LargestRectangleinHistogram obj = new LargestRectangleinHistogram();
-            var result = obj.LargestRectangleAreaClean(bars);
+            var result = obj.LargestRectangleArea(bars);
 
             Assert.IsTrue(result == 10);
         }
@@ -110,7 +110,7 @@ namespace LeetCode
         {
             int[] bars = new[] { 1, 2, 3, 4, 5 };
             LargestRectangleinHistogram obj = new LargestRectangleinHistogram();
-            var result = obj.LargestRectangleAreaClean(bars);
+            var result = obj.LargestRectangleArea(bars);
 
             Assert.IsTrue(result == 9);
         }
@@ -118,11 +118,11 @@ namespace LeetCode
         [Test]
         public void TestLargestRectangleArea2()
         {
-            int[] bars = new[] { 0 , 0, 0, 0 };
+            int[] bars = new[] { 1 , 1};
             LargestRectangleinHistogram obj = new LargestRectangleinHistogram();
-            var result = obj.LargestRectangleAreaClean(bars);
+            var result = obj.LargestRectangleArea(bars);
 
-            Assert.IsTrue(result == 0);
+            Assert.IsTrue(result == 2);
         }
     }
 }
