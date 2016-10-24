@@ -130,6 +130,7 @@
     <Compile Include="String\MinimumWindowSubstring.cs" />
     <Compile Include="String\MultiplyStrings.cs" />
     <Compile Include="String\SubstringWithConcatenationAllWords.cs" />
+    <Compile Include="WildcardMatching.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
