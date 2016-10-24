@@ -57,6 +57,7 @@
     <Compile Include="Array\AddTwoNumbers.cs" />
     <Compile Include="Array\BestTimeToBuySellStock.cs" />
     <Compile Include="Array\ConvertSortedArrayToBST.cs" />
+    <Compile Include="Array\DynamicProgramming\LargestRectangleinHistogram.cs" />
     <Compile Include="Array\FindFirstUniqueCharInString.cs" />
     <Compile Include="Array\FindLongestSubstring.cs" />
     <Compile Include="Array\GenerateParentheses.cs" />
