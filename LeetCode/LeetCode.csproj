@@ -85,6 +85,7 @@
     <Compile Include="Array\FindTheDuplicateNumber.cs" />
     <Compile Include="Array\RemoveElement.cs" />
     <Compile Include="Array\ReverseInteger.cs" />
+    <Compile Include="Array\SearchForRange.cs" />
     <Compile Include="Array\SwapNodesinPairs .cs" />
     <Compile Include="Array\TwoSum.cs" />
     <Compile Include="Array\ValidParentheses.cs" />
